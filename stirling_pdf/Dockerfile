@@ -2,7 +2,7 @@
 FROM stirlingtools/stirling-pdf:latest-fat
 
 # Install Tini to manage processes
-RUN apk add --no-cache tini
+# RUN apk add --no-cache tini
 
 # Copy and make the run.sh script executable
 COPY run.sh /run.sh
